@@ -1,4 +1,5 @@
-const haha 
+const haha = console.log();
+
 let result = 17 % 5;
 console.log(result);
 function evenOdd(number) {
