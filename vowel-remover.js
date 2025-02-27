@@ -1,7 +1,6 @@
-function simpleMultiplication(number) {
-  if (number % 2 === 0) {
-    return number * 8;
-  } else if (number % 2 !== 0) {
-    return number * 9;
-  }
+function sumMix(x) {
+  const y = x.map((z) => Number(z));
+  const n = y.reduce((acc, curr) => acc + curr, 0);
+  return n;
 }
+console.log(sumMix([]));
