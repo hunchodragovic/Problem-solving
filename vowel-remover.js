@@ -1,4 +1,5 @@
-function move(array, n) {
-  let number = array[n];
-  return number ** n;
+function nameShuffler(str) {
+  const name = str.split(" ");
+  const bang = name.reverse();
+  return bang;
 }
